@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  color: #eb1a0b;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  color: rgb(90, 55, 10);
+  text-align: center;
+}
+#spicy{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #000;
+  font-size: larger;
+}
+#ingredients{
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.imageOne {
+  width: 600px;
+  border-radius: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.imagetwo{
+  border-radius: 25px;
+  border: 2px solid;
+  filter: contrast(2px);
+  float: none;
+  clip-path: margin-box;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.imagethree{
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  filter: brightness(2px) contrast(2px);
+  margin-left: 30px;
+
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(16, 22, 24, 0.5);
+  filter: contrast(2px);
+}
+
+p {
+  color: brown;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-style: normal;
+  padding: 30px;
+
+}
+
+#middle {
+  color: darkblue;
+}
+
+/* CSS for the image */
+.centered-image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: small;
+}
